@@ -1,0 +1,14 @@
+# Sample Dealer Master List
+# This file will be populated from the dataset
+# Format: One dealer name per line
+
+ABC Motors Pvt Ltd
+XYZ Tractors and Equipment
+Mahindra Dealership Services
+Farm Equipment Solutions Ltd
+Rural Auto India Private Limited
+Tractor Zone Dealership
+Agricultural Machinery Co
+Green Field Motors
+Krishi Vahaan Center
+Bharat Farm Equipment

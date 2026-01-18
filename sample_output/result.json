@@ -1,0 +1,45 @@
+{
+    "doc_id": "sample_invoice_001",
+    "fields": {
+        "dealer_name": "ABC Motors Pvt Ltd",
+        "model_name": "Mahindra 475 DI",
+        "horse_power": 42,
+        "asset_cost": 550000.0,
+        "dealer_signature": {
+            "present": true,
+            "bbox": [
+                120,
+                450,
+                80,
+                40
+            ]
+        },
+        "dealer_stamp": {
+            "present": true,
+            "bbox": [
+                200,
+                440,
+                60,
+                60
+            ]
+        }
+    },
+    "confidence": {
+        "dealer_name": 0.95,
+        "model_name": 1.0,
+        "horse_power": 0.88,
+        "asset_cost": 0.92,
+        "dealer_signature": 0.87,
+        "dealer_stamp": 0.91
+    },
+    "explanation": {
+        "dealer_name": "Fuzzy matched with 95% similarity to master list",
+        "model_name": "Exact match found in asset master list",
+        "horse_power": "Extracted from '42 HP' pattern in document",
+        "asset_cost": "Extracted from 'Rs. 5,50,000' format",
+        "dealer_signature": "Detected at bottom-right of document",
+        "dealer_stamp": "Detected near signature with high confidence"
+    },
+    "processing_time_seconds": 24.3,
+    "estimated_cost_usd": 0.0073
+}

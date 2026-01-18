@@ -1,0 +1,19 @@
+# Sample Asset Master List (Tractor Models)
+# This file will be populated from the dataset
+# Format: One model name per line
+
+Mahindra 475 DI
+Mahindra 575 DI
+Mahindra ARJUN 605 DI
+Sonalika DI 745 III
+Sonalika DI 60
+John Deere 5045D
+John Deere 5050E
+New Holland 3630 TX
+Massey Ferguson 1035 DI
+TAFE 45 DI
+Kubota MU 5501
+Farmtrac 60 Classic
+Swaraj 744 FE
+VST Shakti VT 224
+Powertrac 439

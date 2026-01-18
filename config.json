@@ -1,0 +1,22 @@
+{
+  "fuzzy_match_threshold": 90,
+  "confidence_threshold": 0.5,
+  "dealer_master_path": "data/dealer_master.txt",
+  "asset_master_path": "data/asset_master.txt",
+  "model_settings": {
+    "ocr_languages": ["en", "hi", "te"],
+    "vlm_model": "Qwen/Qwen2-VL-2B-Instruct",
+    "yolo_model": "yolov8n.pt",
+    "use_gpu": false
+  },
+  "preprocessing": {
+    "enable_deskew": true,
+    "enable_denoise": true,
+    "enable_contrast_enhance": true,
+    "max_image_dimension": 2048
+  },
+  "detection": {
+    "signature_confidence_threshold": 0.3,
+    "stamp_confidence_threshold": 0.3
+  }
+}

@@ -1,0 +1,72 @@
+# .gitignore for Document AI Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights and cache
+models/
+.cache/
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Dataset and outputs
+dataset/
+results/
+outputs/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.tiff
+
+# But keep sample files
+!sample_documents/*.jpg
+!sample_output/*.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
